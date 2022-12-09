@@ -96,19 +96,15 @@ async-timeout==4.0.2 \
     # via
     #   aiohttp
     #   taskcluster
-asynctest==0.13.0 \
-    --hash=sha256:5da6118a7e6d6b54d83a8f7197769d046922a44d2a99c21382f0a6e4fadae676 \
-    --hash=sha256:c27862842d15d83e6a34eb0b2866c323880eb3a75e4485b079ea11748fd77fac
-    # via aiohttp
 attrs==21.4.0 \
     --hash=sha256:2d27e3784d7a565d36ab851fe94887c5eccd6a463168875832a1be79c82828b4 \
     --hash=sha256:626ba8234211db98e869df76230a137c4c40a12d72445c45d5f5b716f076e2fd
     # via
     #   aiohttp
     #   taskcluster-taskgraph
-certifi==2021.10.8 \
-    --hash=sha256:78884e7c1d4b00ce3cea67b44566851c4343c120abd683433ce934a68ea58872 \
-    --hash=sha256:d62a0163eb4c2344ac042ab2bdf75399a71a2d8c7d47eac2e2ee91b9d6339569
+certifi==2022.12.7 \
+    --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3 \
+    --hash=sha256:4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18
     # via requests
 charset-normalizer==2.0.12 \
     --hash=sha256:2857e29ff0d34db842cd7ca3230549d1a697f96ee6d3fb071cfa6c7393832597 \
@@ -196,12 +192,8 @@ idna==3.3 \
     --hash=sha256:84d9dd047ffa80596e0f246e2eab0b391788b0503584e8945f2368256d2735ff \
     --hash=sha256:9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d
     # via
-    #   idna-ssl
     #   requests
     #   yarl
-idna-ssl==1.1.0 \
-    --hash=sha256:a933e3bb13da54383f9e8f35dc4f9cb9eb9b3b78c6b36f311254d6d0d92c6c7c
-    # via aiohttp
 json-e==4.4.3 \
     --hash=sha256:8ed3974faa887ca96a7987298f6550cf2ad35472419a980766b3abe48258de0a
     # via taskcluster-taskgraph
@@ -367,14 +359,6 @@ taskcluster-urls==13.0.1 \
     # via
     #   taskcluster
     #   taskcluster-taskgraph
-typing-extensions==4.1.1 \
-    --hash=sha256:1a9462dcc3347a79b1f1c0271fbe79e844580bb598bafa1ed208b94da3cdcd42 \
-    --hash=sha256:21c85e0fe4b9a155d0799430b0ad741cdce7e359660ccbd8b530613e8df88ce2
-    # via
-    #   aiohttp
-    #   arrow
-    #   async-timeout
-    #   yarl
 urllib3==1.26.8 \
     --hash=sha256:000ca7f471a233c2251c6c7023ee85305721bfdf18621ebff4fd17a8653427ed \
     --hash=sha256:0e7c33d9a63e7ddfcb86780aac87befc2fbddf46c58dbb487e0855f7ceec283c
